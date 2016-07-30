@@ -12,7 +12,7 @@
 
 - (instancetype)initWihtLevel:(NSInteger)level {
     if (self = [super initWihtLevel:HandlerLevelFatherRequest]) {
-    
+        
     }
     return self;
 }
@@ -33,13 +33,17 @@
 }
 
 
-
-
-/*
 - (void)handleMessage:(IWomen *)women {
-     NSLog(@"女儿的请示是:%@",women.request);
-     NSLog(@"父亲的答复是:%@",@"同意");
+    NSLog(@"%s",__func__);
+    
+    if (women.type == self.level) {
+        [self response:women];
+    }else {
+        if (self.nextHandler != nil) {// 有后续环节，才把请求往后递送
+            [self.nextHandler handleMessage:women];
+        }
+    }
 }
- */
+
 
 @end

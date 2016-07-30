@@ -12,7 +12,11 @@
 
 @interface IHandler : NSObject
 
+@property (nonatomic,assign)NSInteger level;
+@property (nonatomic,strong)IHandler *nextHandler;
+
 - (instancetype)initWihtLevel:(NSInteger)level ;
 - (void)handleMessage:(IWomen *)women;
 - (void)setNext:(IHandler *)handler;
+
 @end

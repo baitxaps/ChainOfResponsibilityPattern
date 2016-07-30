@@ -18,15 +18,29 @@
 
 - (instancetype)init {
     if (self = [self initWihtLevel:HandlerLevelHusbandRequest]) {
-       
+        
     }
     return self;
 }
 
-- (void)handleMessage:(IWomen *)women {
+- (void)response:(IWomen *)women {
     NSLog(@"--妻子向丈夫请示---");
     NSLog(@"%@",women.request);
     NSLog(@"丈夫的答复是:%@",@"同意");
 }
+
+- (void)handleMessage:(IWomen *)women {
+    NSLog(@"%s",__func__);
+    
+    if (women.type == self.level) {
+        [self response:women];
+        
+    }else {
+        if (self.nextHandler != nil) {// 有后续环节，才把请求往后递送
+            [self.nextHandler handleMessage:women];
+        }
+    }
+}
+
 
 @end

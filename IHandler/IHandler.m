@@ -10,8 +10,8 @@
 
 @interface IHandler ()
 
-@property (nonatomic,assign)NSInteger level;
-@property (nonatomic,strong)IHandler *nextHandler;
+//@property (nonatomic,assign)NSInteger level;
+//@property (nonatomic,strong)IHandler *nextHandler;
 
 @end
 
@@ -26,25 +26,29 @@
 
 
 - (void)handleMessage:(IWomen *)women {
+    NSLog(@"%s",__func__);
     
-     NSLog(@"=======level =========>>>> %ld",self.level);
+     [self.nextHandler handleMessage:women];
+  
+/*
     if (women.type == self.level) {
         [self response:women];
     }else {
         if (self.nextHandler != nil) {// 有后续环节，才把请求往后递送
             [self.nextHandler handleMessage:women];
-        }else { // 已经没有后续处理人了，不用处理
-            NSLog(@"---没有地方请求了，按不同意处理---");
         }
     }
+*/
 }
 
 - (void)setNext:(IHandler *)handler {
     self.nextHandler = handler;
 }
 
+/*
 - (void)response:(IWomen *)women {
     
 }
+ */
 
 @end
