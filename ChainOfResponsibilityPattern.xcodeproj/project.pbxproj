@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		773C40C11D4B4D3B00EBC5BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40C01D4B4D3B00EBC5BE /* main.m */; };
+		773C40C91D4B54A700EBC5BE /* IWomen.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40C81D4B54A700EBC5BE /* IWomen.m */; };
+		773C40CC1D4B553C00EBC5BE /* Women.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40CB1D4B553C00EBC5BE /* Women.m */; };
+		773C40D01D4B568000EBC5BE /* IHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40CF1D4B568000EBC5BE /* IHandler.m */; };
+		773C40D31D4B571D00EBC5BE /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40D21D4B571D00EBC5BE /* Father.m */; };
+		773C40D61D4B583800EBC5BE /* Husband.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40D51D4B583800EBC5BE /* Husband.m */; };
+		773C40D91D4B5A0900EBC5BE /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40D81D4B5A0900EBC5BE /* Son.m */; };
+		779E979E1D4B9AD40025E7C2 /* RHCRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 779E979D1D4B9AD40025E7C2 /* RHCRandom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,21 @@
 /* Begin PBXFileReference section */
 		773C40BD1D4B4D3B00EBC5BE /* ChainOfResponsibilityPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChainOfResponsibilityPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		773C40C01D4B4D3B00EBC5BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		773C40C71D4B54A700EBC5BE /* IWomen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWomen.h; sourceTree = "<group>"; };
+		773C40C81D4B54A700EBC5BE /* IWomen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWomen.m; sourceTree = "<group>"; };
+		773C40CA1D4B553C00EBC5BE /* Women.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Women.h; sourceTree = "<group>"; };
+		773C40CB1D4B553C00EBC5BE /* Women.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Women.m; sourceTree = "<group>"; };
+		773C40CE1D4B568000EBC5BE /* IHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHandler.h; sourceTree = "<group>"; };
+		773C40CF1D4B568000EBC5BE /* IHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHandler.m; sourceTree = "<group>"; };
+		773C40D11D4B571D00EBC5BE /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		773C40D21D4B571D00EBC5BE /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		773C40D41D4B583800EBC5BE /* Husband.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Husband.h; sourceTree = "<group>"; };
+		773C40D51D4B583800EBC5BE /* Husband.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Husband.m; sourceTree = "<group>"; };
+		773C40D71D4B5A0900EBC5BE /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		773C40D81D4B5A0900EBC5BE /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		773C40DB1D4B683B00EBC5BE /* Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enum.h; sourceTree = "<group>"; };
+		779E979C1D4B9AD40025E7C2 /* RHCRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCRandom.h; sourceTree = "<group>"; };
+		779E979D1D4B9AD40025E7C2 /* RHCRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCRandom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +63,9 @@
 		773C40B41D4B4D3B00EBC5BE = {
 			isa = PBXGroup;
 			children = (
+				779E979B1D4B9ABF0025E7C2 /* Others */,
+				773C40DA1D4B682100EBC5BE /* NSENUM */,
+				773C40CD1D4B566300EBC5BE /* IHandler */,
 				773C40BF1D4B4D3B00EBC5BE /* ChainOfResponsibilityPattern */,
 				773C40BE1D4B4D3B00EBC5BE /* Products */,
 			);
@@ -58,8 +83,44 @@
 			isa = PBXGroup;
 			children = (
 				773C40C01D4B4D3B00EBC5BE /* main.m */,
+				773C40C71D4B54A700EBC5BE /* IWomen.h */,
+				773C40C81D4B54A700EBC5BE /* IWomen.m */,
+				773C40CA1D4B553C00EBC5BE /* Women.h */,
+				773C40CB1D4B553C00EBC5BE /* Women.m */,
 			);
 			path = ChainOfResponsibilityPattern;
+			sourceTree = "<group>";
+		};
+		773C40CD1D4B566300EBC5BE /* IHandler */ = {
+			isa = PBXGroup;
+			children = (
+				773C40CE1D4B568000EBC5BE /* IHandler.h */,
+				773C40CF1D4B568000EBC5BE /* IHandler.m */,
+				773C40D11D4B571D00EBC5BE /* Father.h */,
+				773C40D21D4B571D00EBC5BE /* Father.m */,
+				773C40D41D4B583800EBC5BE /* Husband.h */,
+				773C40D51D4B583800EBC5BE /* Husband.m */,
+				773C40D71D4B5A0900EBC5BE /* Son.h */,
+				773C40D81D4B5A0900EBC5BE /* Son.m */,
+			);
+			path = IHandler;
+			sourceTree = "<group>";
+		};
+		773C40DA1D4B682100EBC5BE /* NSENUM */ = {
+			isa = PBXGroup;
+			children = (
+				773C40DB1D4B683B00EBC5BE /* Enum.h */,
+			);
+			path = NSENUM;
+			sourceTree = "<group>";
+		};
+		779E979B1D4B9ABF0025E7C2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				779E979C1D4B9AD40025E7C2 /* RHCRandom.h */,
+				779E979D1D4B9AD40025E7C2 /* RHCRandom.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773C40D91D4B5A0900EBC5BE /* Son.m in Sources */,
+				773C40D01D4B568000EBC5BE /* IHandler.m in Sources */,
+				773C40CC1D4B553C00EBC5BE /* Women.m in Sources */,
+				773C40C91D4B54A700EBC5BE /* IWomen.m in Sources */,
+				779E979E1D4B9AD40025E7C2 /* RHCRandom.m in Sources */,
 				773C40C11D4B4D3B00EBC5BE /* main.m in Sources */,
+				773C40D31D4B571D00EBC5BE /* Father.m in Sources */,
+				773C40D61D4B583800EBC5BE /* Husband.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +307,7 @@
 				773C40C61D4B4D3B00EBC5BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
