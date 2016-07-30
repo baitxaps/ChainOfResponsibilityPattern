@@ -49,6 +49,8 @@
 		779E979D1D4B9AD40025E7C2 /* RHCRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCRandom.m; sourceTree = "<group>"; };
 		77B46E7E1D4C4E1700FE3021 /* ChainOfResponsibilityPattern01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChainOfResponsibilityPattern01.png; sourceTree = "<group>"; };
 		77B46E7F1D4C4E1C00FE3021 /* ChainOfResponsibilityPattern00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChainOfResponsibilityPattern00.png; sourceTree = "<group>"; };
+		77B46E801D4C51D900FE3021 /* ChainOfResponsibilityPattern04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChainOfResponsibilityPattern04.png; sourceTree = "<group>"; };
+		77B46E811D4C51E000FE3021 /* ChainOfResponsibilityPattern03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChainOfResponsibilityPattern03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,8 @@
 		773C40CD1D4B566300EBC5BE /* IHandler */ = {
 			isa = PBXGroup;
 			children = (
+				77B46E811D4C51E000FE3021 /* ChainOfResponsibilityPattern03.png */,
+				77B46E801D4C51D900FE3021 /* ChainOfResponsibilityPattern04.png */,
 				77B46E7F1D4C4E1C00FE3021 /* ChainOfResponsibilityPattern00.png */,
 				77B46E7E1D4C4E1700FE3021 /* ChainOfResponsibilityPattern01.png */,
 				773C40CE1D4B568000EBC5BE /* IHandler.h */,
