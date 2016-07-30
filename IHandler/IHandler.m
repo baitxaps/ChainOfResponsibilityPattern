@@ -8,13 +8,6 @@
 
 #import "IHandler.h"
 
-@interface IHandler ()
-
-//@property (nonatomic,assign)NSInteger level;
-//@property (nonatomic,strong)IHandler *nextHandler;
-
-@end
-
 @implementation IHandler
 
 - (instancetype)initWihtLevel:(NSInteger)level {
